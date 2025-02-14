@@ -1,0 +1,24 @@
+@use "config/variaveis";
+@use "sections/sobre";
+@use "sections/cardapio";
+@use "sections/faleconosco";
+
+.navbar{
+    background-color: variaveis.$corPrincipal !important;
+    .navbar-brand{
+        font-family: variaveis.$fonteSecundaria;
+        color: variaveis.$corSecundaria;
+    }
+    .navbar-toggler{
+        background-color: variaveis.$corSecundaria;
+    }
+    .nav{
+        .nav-link.active{
+            background-color: variaveis.$corSecundaria;
+            color: variaveis.$corPrincipal;
+        }
+        .nav-link{
+            color: variaveis.$corSecundaria;
+        }
+    }
+}

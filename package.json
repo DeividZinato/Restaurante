@@ -1,0 +1,15 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "observar": "sass source/style.scss build/style.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.84.0"
+  }
+}

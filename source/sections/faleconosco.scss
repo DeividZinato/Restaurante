@@ -1,0 +1,26 @@
+@use "../config/variaveis";
+
+.text-colored{
+    color: variaveis.$corPrincipal;
+}
+
+.social-links{
+    li{
+        list-style: none;
+        display: inline;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.botao-fale-conosco{
+    background-color: variaveis.$corBotao;
+    color: variaveis.$corSecundaria;
+    
+    &:hover{
+        background-color: variaveis.$corBotaoHover;
+        color: variaveis.$corSecundaria;
+    }
+}
+

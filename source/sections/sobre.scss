@@ -1,0 +1,16 @@
+@use "../config/variaveis";
+
+.section-title,.sub-title{
+    font-family: variaveis.$fonteSecundaria !important;
+}
+span{
+    color: variaveis.$corPrincipal !important;
+}   
+
+#sobre-o-restaurante{
+    background-color: variaveis.$corFundo;
+}
+
+.text-colored{
+    color: variaveis.$corPrincipal;
+}
